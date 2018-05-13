@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A2</title>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="a2.css" />
+  <link rel="stylesheet" href="themes/hakristi.css" />
+  <link rel="stylesheet" href="themes/hakristi.min.css"/>
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="a2.js"></script>
+  </head>
+  <body>
+    <section>
+      <!--Main Page-->
+        <div id="mainPage" data-role="page"><!--Main Page-->
+          <div data-role="header">
+            <!--Main Page Title-->
+            <h2 id="mainTitle"></h2>
+          </div>
+          <div data-role="main" class='ui-grid-b'><!--Main Content-->
+             <div class='ui-block-a'></div>
+          	 <div class="ui-block-b"><a href="#eternal" data-transition='pop' class='ui-btn ui-shadow' data-role="button">Etnernal<br> Sunshine</a></div>
+          	 <div class="ui-block-c"></div>
+             <div class="ui-block-a"></div>
+             <div class="ui-block-b"><a href="#darKnight" data-transition='pop' class='ui-btn ui-shadow' data-role="button">Dark<br> Knight</a></div>
+             <div class="ui-block-c"></div>
+             <div class="ui-block-a"></div>
+             <div class="ui-block-b"><a href="#getOut" data-transition='pop' class='ui-btn ui-shadow' data-role="button">Get Out</a></div>
+             <div class="ui-block-c"></div>
+          </div>
+          <div data-role="footer" data-position="fixed"><!--Footer-->
+            <h2 id="username"></h2>
+            <h2 id="studentNumber"></h2>
+            <h2 id="studentName"></h2>
+            <h2 id="studentProgram"></h2>
+          </div><!--End of Footer-->
+        </div><!--End of Main Page-->
+
+        <div id="eternal" data-role="page"><!--Eternal of Sunshine Page-->
+          <div data-role="header">
+            <h2 id="eternalTitle"></h2>
+            <div id="eternalImage"></div>
+          </div>
+          <div data-role="main" ><!--Main Content-->
+            <div class='ui-grid-b'>
+              <div class='ui-block-a'></div>
+              <div class='ui-block-b' id="eternalPlot"></div>
+              <div class='ui-block-c'></div>
+              <div class='ui-block-a'>
+                <div id="eternalActor1"> </div>
+                <div id="eternalRole1"></div>
+              </div>
+              <div class='ui-block-b'>
+                <div id="eternalActor2"></div>
+                <div id="eternalRole2"></div>
+              </div>
+              <div class='ui-block-c'>
+                <div id="eternalActor3"></div>
+                <div id="eternalRole3"></div>
+              </div>
+                <br><div class='ui-block-a' id="eternalReview1"></div>
+                <br><div class='ui-block-b' id="eternalReview2"></div>
+                <br><div class='ui-block-c' id="eternalReview3"></div>
+          </div>
+          <div class='ui-grid-a'>
+            <div class='ui-block-a'><a href="http://www.imdb.com/title/tt0338013/?ref_=nv_sr_1" data-role="button">IMDB</a></div>
+            <div class='ui-block-b'><a href="https://film.cadata-role="data-role="button">Film.ca</a></div>
+          </div>
+          </div><!--End of main-->
+          <div data-role="footer" data-position="fixed">
+            <div id="footer">
+            Assignment 2
+           </div>
+          </div><!--End of footer-->
+        </div><!--End of page 2-->
+
+          <div id="getOut" data-role="page"><!--Get out Page-->
+            <div data-role="header">
+              <h2 id="getOuttitle"></h2>
+              <div id="getOutImage"></div>
+            </div>
+            <div data-role="main" ><!--Main Content-->
+              <div class='ui-grid-b'>
+                <div class='ui-block-a'></div>
+                <div class='ui-block-b' id="getOutPlot"></div>
+                <div class='ui-block-c'></div>
+                <div class='ui-block-a'>
+                  <div id="getOutActor1"> </div>
+                  <div id="getOutRole1"></div>
+                </div>
+                <div class='ui-block-b'>
+                  <div id="getOutActor2"></div>
+                  <div id="getOutRole2"></div>
+                </div>
+                <div class='ui-block-c'>
+                  <div id="getOutActor3"></div>
+                  <div id="getOutRole3"></div>
+                </div>
+                  <br><div class='ui-block-a' id="getOutReview1"></div>
+                  <br><div class='ui-block-b' id="getOutReview2"></div>
+                  <br><div class='ui-block-c' id="getOutReview3"></div>
+            </div>
+            <div class='ui-grid-a'>
+              <div class='ui-block-a'><a href="http://www.imdb.com/title/tt5052448/"data-role="button">IMDB</a></div>
+              <div class='ui-block-b'><a href="https://film.ca"data-role="button">Film.ca</a></div>
+            </div>
+            </div><!--End of main-->
+            <div data-role="footer" data-position="fixed">
+              <div id="footer">
+              Assignment 2
+             </div>
+            </div><!--End of footer-->
+        </div><!--End of Get out-->
+        
+        <div id="darKnight" data-role="page"><!--Dark Knight Page-->
+            <div data-role="header">
+              <h2 id="darKnighttitle"></h2>
+              <div id="darKnightImage"></div>
+            </div>
+            <div data-role="main" ><!--Main Content-->
+              <div class='ui-grid-b'>
+                <div class='ui-block-a'></div>
+                <div class='ui-block-b' id="darKnightPlot"></div>
+                <div class='ui-block-c'></div>
+                <div class='ui-block-a'>
+                  <div id="darKnightActor1"> </div>
+                  <div id="darKnightRole1"></div>
+                </div>
+                <div class='ui-block-b'>
+                  <div id="darKnightActor2"></div>
+                  <div id="darKnightRole2"></div>
+                </div>
+                <div class='ui-block-c'>
+                  <div id="darKnightActor3"></div>
+                  <div id="darKnightRole3"></div>
+                </div>
+                  <br><div class='ui-block-a' id="darKnightReview1"></div>
+                  <br><div class='ui-block-b' id="darKnightReview2"></div>
+                  <br><div class='ui-block-c' id="darKnightReview3"></div>
+            </div>
+            <div class='ui-grid-a'>
+              <div class='ui-block-a'><a href="http://www.imdb.com/title/tt0468569/?ref_=nv_sr_1"data-role="button">IMDB</a></div>
+              <div class='ui-block-b'><a href="https://film.cadata-role=" data-role="button">Film.ca</a></div>
+            </div>
+            </div><!--End of main-->
+            <div data-role="footer" data-position="fixed">
+              <div id="footer">
+              Assignment 2
+             </div>
+            </div><!--End of footer-->
+        </div><!--End of Dark Knight-->
+    </section>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+#eternalImage,#getOutImage,#darKnightImage{
+  margin: auto;
+  text-align: center;
+}
+#eternalPlot,#getOutPlot,#darKnightPlot{
+  padding-bottom:10px;
+  font-size: 16px;
+}
+#eternalReview1,#eternalReview2,#eternalReview3,
+#getOutReview1,#getOutReview2,#getOutReview3,
+#darKnightReview1,#darKnightReview2,#darKnightReview3{
+  padding-right: 10px;
+  border:1px;
+  vertial-align: middle;
+  text-align: center;
+  padding-top: 10px;
+}
+#eternalActor3,#eternalActor2,#eternalActor1,
+#getOutActor3,#getOutActor2,#getOutActor1,
+#darKnightActor3,#darKnightActor2,#darKnightActor1{
+  vertical-align:top;
+  text-align: left;
+  font-size: 12px;
+}
+#eternalRole3,#eternalRole2,#eternalRole1,
+#getOutRole3,#getOutRole2,#getOutRole1,
+#darKnightRole3,#darKnightRole2,#darKnightRole1{
+  vertical-align:middle;
+  text-align: center;
+  font-size: 10px;
+}
+#footer{
+ text-align:center;
+}

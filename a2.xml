@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<root>
+  <header>
+  <!--Site title-->
+  <title>Movies</title>
+  </header>
+
+  <content>
+  <!--Content for Eternal Sunshine-->
+  <movie>
+      <title eternalImage="EternalSunshine.jpg">Eternal Sunshine</title>
+      <plot>
+        Plot:
+        Joel is stunned to discover that his girlfriend Clementine has had her
+        memories of their tumultuous relationship erased.
+      </plot>
+      <cast>
+        <actor role="Joel Barish">Jim Carrey</actor>
+        <actor role="Clementine Kruczynski">Kate Winslet</actor>
+        <actor role="Partick">Elija Elijah Wood</actor>
+      </cast>
+      <reviews>
+        <magazine>
+          Wall Street Journal
+          "Eternal Sunshine of the Spotless Mind goes by like
+          a fevered dream of love.""
+
+        </magazine>
+        <magazine>
+          Associated Press
+          "Refracted through Kaufman's wonderfully weird
+          prism, it's something truly memorable."
+        </magazine>
+        <magazine>
+          The Atlantic
+          "The result is a cinematic vagueness that
+          makes the film less aesthetic yet more persuasive.""
+        </magazine>
+      </reviews>
+    </movie>
+    <!--Content for Get Out-->
+    <movie>
+      <title getOutImg="GetOut.jpg">Get Out</title>
+      <plot>
+        Plot:
+        Chris and his girlfriend Rose go upstate to visit her parents for
+        the weekend and leads him to a truth that he never could have imagined
+      </plot>
+      <cast>
+        <actor role="Chris Washington">Daniel Kaluuya</actor>
+        <actor role="Rose Armitage">Allison Williams</actor>
+        <actor role="Missy Armitage">Catherine Keener</actor>
+      </cast>
+      <review>
+        <magazine>
+          Salon
+          "By focusing the storyline on a particular form of racism --
+          Get Out reveals something more insidious.""
+        </magazine>
+        <magazine>
+          Christian Science Monitor
+          "What makes Get Out more than just a slam-bang scarefest is that,
+          it is also a movie about racial paranoia that captures"
+        </magazine>
+        <magazine>
+          Chicago Reader
+          "Jordan Peele makes his directing debut with a
+         ribbing of white liberals hardens into a social
+          point.""
+        </magazine>
+        </review>
+      </movie>
+      <!--Content for Get Out-->
+      <movie>
+        <title darKnightImg="DarKnight.jpg">The Dark Knight</title>
+        <plot>
+        Plot:
+         Batman's struggle against the
+          Joker becomes deeply personal, forcing him to "confront everything he believes" and improve
+          his technology to stop him. A love triangle develops between Bruce Wayne, Dent and Rachel Dawes.
+        </plot>
+        <cast>
+          <actor role="Bruce Wayne">Christian Bale</actor>
+          <actor role="Joker">Heath Ledger</actor>
+          <actor role="Harvey Dent">Two Face</actor>
+        </cast>
+        <review>
+          <magazine>
+            The Orange County Register
+            "The Dark Knight is probably the smartest and most stylish action movie
+            since the "The Matrix." It thinks and philosophizes.
+          </magazine>
+          <magazine>
+            Time Out
+            "The Dark Knight is a film that's fantastic on the action front"
+          </magazine>
+          <magazine>
+            IE Weekly
+            "I'm betraying my childhood to concede this, but Nolan has finally topped
+            Tim Burton's two twisted spectaculars."
+          </magazine>
+        </review>
+      </movie>
+</content>
+
+ <studentInfo>
+      <!--Username -->
+    <student username="Hakristi"></student>
+    <!--Student Number-->
+  <student studentNumber="991152658"></student>
+    <!-- Name-->
+  <student studentName="Kristien Harrison"></student>
+
+    <!-- Include your Program -->
+  <student studentProgram="Software Engineering"></student>
+
+  </studentInfo>
+</root>
